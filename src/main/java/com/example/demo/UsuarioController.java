@@ -34,7 +34,6 @@ public class UsuarioController {
 	
 	@PostMapping("/usuario")
 	public Usuario saveUsuario(@RequestBody Usuario usuario) {
-		System.out.println(usuario.toString());
 		return repository.save(usuario);
 	}
 	

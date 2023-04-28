@@ -1,7 +1,5 @@
 package com.example.demo;
 
-import java.util.Date;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,12 +17,11 @@ public class Usuario {
 	String nome;
 	String sobrenome;
 	String email;
-	Date dataDeNascimento;
+	String dataDeNascimento;
 	Sexo sexo;
 	String cpf;
-	String ddd;
+	String ddd; 
 	String telefone;
-	
-	
-	
+	NivelDeAcesso nivelDeAcesso;
+ 
 }
